@@ -657,11 +657,14 @@ mp.show()
 mp.figure('Bar', facecolor='lightgray')
 mp.bar(
 	x,				# 水平坐标数组
-    y,				# 柱状图高度数组
+    height,			# 柱状图高度数组
     width,			# 柱子的宽度
+    y,				# 垂直坐标(默认0)
     color='', 		# 填充颜色
     label='',		#
-    alpha=0.2		#
+    edgecolor='',    # 边框颜色
+    alpha=0.2,		# 透明度
+    zorder=3        # 图层序号
 )
 
 ```
