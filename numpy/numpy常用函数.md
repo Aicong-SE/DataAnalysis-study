@@ -1893,7 +1893,7 @@ wf.write('../../data/filter.wav',sample_rate,(filter_sigs * 2 ** 15).astype(np.i
 生成服从特定统计规律的随机数序列。
 
 ```python
-np.random.normal()
+np.random.normal() # 正态分布
 
 [1,2,3,4,3,2,4,3,2,1,2,3,4,3,2,1,4,5,3,2,3,5]
 [0,1,2,1,2,2,1,0,1,2,1,2,1,2]
@@ -2022,6 +2022,11 @@ mp.show()
 
 #### 排序
 
+```python
+np.msort(ary)　# 升序排列
+np.argsort(ary) # 升序排序下标
+```
+
 **联合间接排序**
 
 联合间接排序支持为待排序列排序，若待排序列值相同，则利用参考序列作为参考继续排序。最终返回排序过后的有序索引序列。
@@ -2061,7 +2066,7 @@ numpy.sort_complex(复数数组)
 
 ```python
 indices = numpy.searchsorted(有序数组, 待插入数据数组)
-
+# 返回插入的下标
 ```
 
 调用numpy提供了insert方法将待插入元素数组中的元素，按照位置数组中的位置，插入到目标数组中，返回结果数组。

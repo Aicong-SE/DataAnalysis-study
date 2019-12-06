@@ -710,6 +710,8 @@ mp.xticks(x, [
 mp.legend()
 mp.show()
 
+#### 饼状图
+
 绘制饼状图的基本API：
 
 ```python
@@ -1052,4 +1054,19 @@ mp.tight_layout()
 mp.show()
 
 ```
+
+
+
+#### 绘制多边形
+
+```python
+import matplotlib.pyplot as mp
+import matplotlib.patches as mc
+
+mp.gca().add_patch(mc.Polygon([[0,0],[0,1],[1,2],[1,0]],fc='颜色',ec='边框色'))
+```
+
+
+
+#### 
 
