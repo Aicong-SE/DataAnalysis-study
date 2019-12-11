@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f9d3f54-f49b-4415-a0ac-1ae44859e3bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo108_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo109_interpolate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo110_int.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../matplotlib/matplotlib.md" beforeDir="false" afterPath="$PROJECT_DIR$/../matplotlib/matplotlib.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numpy常用函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/numpy常用函数.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
-    </list>
+    <list default="true" id="8f9d3f54-f49b-4415-a0ac-1ae44859e3bb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,7 +55,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,10 +66,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../阶段5/机器学习/day01" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -396,12 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
   </component>
 </project>
