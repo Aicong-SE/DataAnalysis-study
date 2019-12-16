@@ -1,5 +1,7 @@
 # 数据分析DAY08
 
+[toc]
+
 ## pandas基础
 
 ### pandas介绍
@@ -592,13 +594,13 @@ print(rs)
 试验：
 
 ```python
-# 合并两个DataFrame (左连接)
+# 合并两个DataFrame (右连接)
 rs = pd.merge(left,right,on='subject_id', how='right')
 print(rs)
-# 合并两个DataFrame (左连接)
+# 合并两个DataFrame (并集)
 rs = pd.merge(left,right,on='subject_id', how='outer')
 print(rs)
-# 合并两个DataFrame (左连接)
+# 合并两个DataFrame (交集)
 rs = pd.merge(left,right,on='subject_id', how='inner')
 print(rs)
 ```
@@ -747,7 +749,7 @@ DataFrame.to_csv(excel_writer=None, sheetname=None, header=True, index=True, ind
 ```python
 # io 表示文件路径。
 # sheetname 代表excel表内数据的分表位置。默认为0。 
-# header 接收int或sequence。表示将某行数据作为列名。默认为infer，表示自动识别。
+# header 接收int或sequence。表示将某行数据作查看每一部电影不同性别的平均评分并计算分歧差值，之后排序为列名。默认为infer，表示自动识别。
 # names 表示索引列的位置，取值为sequence则代表多重索引。
 # index_col 表示索引列的位置，取值为sequence则代表多重索引。
 # dtype 接收dict。数据类型。
@@ -785,34 +787,4 @@ pd.read_json('../ratings.json')
 9. 查看不同年龄的分布情况并且采用直方图进行可视化
 10. 在原数据中标记出用户位于的年龄分组
 11. 可视化显示movies_ratings中不同类型电影的频数
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
